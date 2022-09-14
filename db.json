@@ -1,235 +1,1829 @@
 {
-"locations": [
-    { "name": "Blue Djinn", "closeto": ["Ankrahmun"] },
-    { "name": "Green Djinn", "closeto": ["Ankrahmun"] },
-    { "name": "Hireling", "closeto": ["Edron"] },
-    { "name": "Edron", "closeto": ["Edron"] },
-    { "name": "Rashid", "closeto": ["Darashia"] },
-    { "name": "Ankrahmun", "closeto": ["Edron"] }
-
-],
-
-"npcs": [
-    { "name": "Blue Djinn", "location": "Blue Djinn" },
-    { "name": "Green Djinn", "location": "Green Djinn" },
-    { "name": "Hireling", "location": "Hireling" },
-    { "name": "Iwan", "location": "Edron" },
-    { "name": "Tesha", "location": "Ankrahmun" },
-    { "name": "Rashid", "location": "Rashid" }
-],
-
-"runes": [
-    { "name": "UH", "price": 0 },
-    { "name": "SD", "price": 0 },
-    { "name": "GFB", "price": 0 },
-    { "name": "HMM", "price": 0 },
-    { "name": "XPL", "price": 0 },
-    { "name": "ICIC", "price": 0 }
-],
-
-"players_otheritems": [
-    { "name": "Life Ring", "price": 900, "weight": 0 },
-    { "name": "RoH", "price": 2000, "weight": 0 },
-    { "name": "BP of MF's", "price": 4000, "weight": 0 },
-    { "name": "BP of LargeMF's", "price": 6700, "weight": 0 },
-    { "name": "Arrow", "price": 3, "weight": 0 },
-    { "name": "Elven Arrow", "price": 7, "weight": 0 },
-    { "name": "Golden Arrow", "price": 14, "weight": 0 },
-    { "name": "Bolt", "price": 5, "weight": 0 }
-],
-
-"items": [
-
-    { "name": "Adventurer Sword", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Ancient Amulet", "price": 3000, "weight": 8.5, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Ancient Scarab Coin", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Ancient Legs", "price": 150000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Ankh", "price": 100, "weight": 4.2, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Arcana Staff", "price": 10000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Axe Ring", "price": 100, "weight": 0.9, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Barbarian Axe", "price": 185, "weight": 51, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Battle Axe", "price": 80, "weight": 50, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Battle Hammer", "price": 120, "weight": 68, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Battle Shield", "price": 95, "weight": 62, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Bear Helmet", "price": 2500, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Beholder Amulet", "price": 12000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Beholder Helmet", "price": 40000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Beholder Shield", "price": 3400, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Black Pearl", "price": 280, "weight": 0.2, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Black Shield", "price": 800, "weight": 41.5, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Blood Herb", "price": 0, "weight": 1.2, "stackable": false, "sellto": ["Players"] },
-    { "name": "Blue Robe", "price": 10000, "weight": 22, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Bolt", "price": 0, "weight": 0.8, "stackable": true, "sellto": ["Players"] },
-    { "name": "Bone Shield", "price": 150, "weight": 55, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Boots of Haste", "price": 30000, "weight": 8.5, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Bunny Ears", "price": 3000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Brass Armor", "price": 150, "weight": 80, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Brass Helmet", "price": 30, "weight": 27, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Brass Legs", "price": 49, "weight": 49, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Brass Shield", "price": 16, "weight": 60, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Bright Sword", "price": 0, "weight": 29, "stackable": false, "sellto": ["Players"] },
-    { "name": "Broad Sword", "price": 500, "weight": 52.5, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Chain Armor", "price": 70, "weight": 100, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Chain Helmet", "price": 17, "weight": 42, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Chain Legs", "price": 25, "weight": 35, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Clerical Mace", "price": 170, "weight": 58, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Club Ring", "price": 100, "weight": 0.9, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Composite Bow", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Crossbow", "price": 160, "weight": 40, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Crown Armor", "price": 12000, "weight": 99, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crown Boots", "price": 20000, "weight": 20, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crown Helmet", "price": 2500, "weight": 29.5, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crown Legs", "price": 12000, "weight": 65, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crown Shield", "price": 8000, "weight": 62, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crown Sword", "price": 50000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crusader Helmet", "price": 6000, "weight": 52, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Crystal Ball", "price": 190, "weight": 34, "stackable": false, "sellto": ["Alexander"] },
-    { "name": "Daramanian Waraxe", "price": 1000, "weight": 105, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Dark Armor", "price": 400, "weight": 120, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Dark Helmet", "price": 250, "weight": 46, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Demon Bone", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Demon Shield", "price": 30000, "weight": 26, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Devil Helmet", "price": 1500, "weight": 50, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Djinn Robe", "price": 30000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Double Axe", "price": 260, "weight": 70, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Draconian Helmet", "price": 30000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Draconian Blade", "price": 15000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Dragon Hammer", "price": 2000, "weight": 97, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "The Dragon Killer", "price": 8000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Dragon Lance", "price": 9000, "weight": 67, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Dragon Scale Mail", "price": 40000, "weight": 114, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Dragon Shield", "price": 4000, "weight": 60, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Dwarven Axe", "price": 2000, "weight": 82, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Dwarven Armor", "price": 30000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Dwarven Helmet", "price": 0, "weight": 42, "stackable": false, "sellto": ["Players"] },
-    { "name": "Dwarven Shield", "price": 100, "weight": 55, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Elven Arrow", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Elven Amulet", "price": 100, "weight": 2.7, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Elven Legs", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Elven Robe", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Elvish Bow", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Fillet", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Fire Axe", "price": 8000, "weight": 40, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Feather Amulet", "price": 2000, "weight": 0, "stackable": false, "sellto": ["Rashid"] }, 
-    { "name": "Fire Axe", "price": 8000, "weight": 40, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Fire Club", "price": 7000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Fire Sword", "price": 4000, "weight": 23, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Firewalker Boots", "price": 20000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Flaming Bow", "price": 30000, "weight": 22, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Gargoyle Helmet", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Ghost Rope", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Giant Shield", "price": 9000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Giant Sword", "price": 17000, "weight": 180, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Golden Armor", "price": 20000, "weight": 80, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Golden Legs", "price": 50000, "weight": 56, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Golden Cherry", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Gold Ring", "price": 10000, "weight": 1, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Guardian Halberd", "price": 12000, "weight": 110, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Guardian Shield", "price": 2000, "weight": 55, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Halberd", "price": 400, "weight": 90, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Heroic Axe", "price": 25000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Heroic Mace", "price": 0, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Heroic Sword", "price": 25000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Hunter Cloak", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Ice Rapier", "price": 1000, "weight": 15, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Iron Helmet", "price": 150, "weight": 30, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Iron Shield", "price": 500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Knight Armor", "price": 5000, "weight": 120, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Knight Axe", "price": 2000, "weight": 59, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Knight Legs", "price": 5000, "weight": 70, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Life Amulet", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Life Ring", "price": 0, "weight": 0.8, "stackable": false, "sellto": ["Players"] },
-    { "name": "Longsword", "price": 51, "weight": 42, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Lunar Staff", "price": 7000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Mace", "price": 30, "weight": 38, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Magic Fragment", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Magic Plate Armor", "price": 0, "weight": 85, "stackable": false, "sellto": ["Players"] },
-    { "name": "Magic Wand", "price": 350, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Mastermind Shield", "price": 50000, "weight": 57, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Medusa Shield", "price": 10000, "weight": 58, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Might Ring", "price": 250, "weight": 1, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Mind Stone", "price": 250, "weight": 2, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Minotaur Armor", "price": 2000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Minotaur Axe", "price": 10000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Minotaur Helmet", "price": 1250, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Minotaur Legs", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Morning Star", "price": 90, "weight": 2, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Mystic Turban", "price": 150, "weight": 8.5, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Nightmare Book", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Noble Armor", "price": 900, "weight": 120, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Obsidian Lance", "price": 500, "weight": 80, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Orb", "price": 750, "weight": 8, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Orcish Armor", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Orcish Axe", "price": 350, "weight": 40, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Orcish Legs", "price": 1000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Paladin Armor", "price": 20000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Phoenix Shield", "price": 70000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Plate Armor", "price": 400, "weight": 120, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Plate Legs", "price": 150, "weight": 50, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Plate Shield", "price": 45, "weight": 65, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Platinum Amulet", "price": 7500, "weight": 6, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Protection Amulet", "price": 100, "weight": 5.5, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Rabbit Doll", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Rangers Legs", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Reapers Axe", "price": 35000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Red Robe", "price": 0, "weight": 24, "stackable": false, "sellto": ["Players"] },
-    { "name": "Ring of Healing", "price": 100, "weight": 0.8, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Ring of the Sky", "price": 30000, "weight": 0.4, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Rock Boots", "price": 0, "weight": 0, "stackable": false, "sellto": ["Players"] },
-    { "name": "Royal Helmet", "price": 30000, "weight": 48, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Royal Sword", "price": 10000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Ruby Necklace", "price": 2000, "weight": 5.7, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Scale Armor", "price": 75, "weight": 105, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Scarab Amulet", "price": 3000, "weight": 7.7, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Scarab Bow", "price": 7000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Scarab Coin", "price": 150, "weight": 0.2, "stackable": true, "sellto": ["Tesha"] },
-    { "name": "Scarab Shield", "price": 3000, "weight": 47, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Scimitar", "price": 150, "weight": 29, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Serpent Sword", "price": 900, "weight": 41, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Silver Amulet", "price": 50, "weight": 5, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Silver Dagger", "price": 500, "weight": 10.2, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Silver Mace", "price": 16500, "weight": 67, "stackable": false, "sellto": ["Players"] },
-    { "name": "Skull Armor", "price": 13000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Skull Shield", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Skull Staff", "price": 6000, "weight": 17, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Small Amethyst", "price": 200, "weight": 0.1, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Small Diamond", "price": 300, "weight": 0.1, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Small Emerald", "price": 250, "weight": 0.1, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Small Ruby", "price": 250, "weight": 0.1, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Small Sapphire", "price": 250, "weight": 0.1, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Soldier Helmet", "price": 16, "weight": 32, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Spidersilk Armor", "price": 15000, "weight": 25, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Spidersilk Legs", "price": 12500, "weight": 15, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Spike Sword", "price": 1000, "weight": 50, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Spiky Club", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Staff of Darkness", "price": 5000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Stealth Ring", "price": 200, "weight": 1, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Steel Boots", "price": 35000, "weight": 29, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Steel Helmet", "price": 293, "weight": 46, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Steel Shield", "price": 80, "weight": 69, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Stone Skin Amulet", "price": 500, "weight": 7, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Strange Helmet", "price": 500, "weight": 46, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Strange Symbol", "price": 0, "weight": 2, "stackable": false, "sellto": ["Players"] },
-    { "name": "Sword", "price": 25, "weight": 35, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Sword Ring", "price": 100, "weight": 0.9, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Talon", "price": 0, "weight": 0.2, "stackable": true, "sellto": ["Players"] },
-    { "name": "Time Ring", "price": 100, "weight": 0.9, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Tower Shield", "price": 8000, "weight": 82, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Two Handed Sword", "price": 450, "weight": 70, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "Vampire Shield", "price": 15000, "weight": 38, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Violet Gem", "price": 0, "weight": 0.3, "stackable": false, "sellto": ["Players"] },
-    { "name": "Viking Helmet", "price": 66, "weight": 39, "stackable": false, "sellto": ["Hireling"] },
-    { "name": "War Axe", "price": 12000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "War Hammer", "price": 1200, "weight": 85, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Watcher Lantern", "price": 17000, "weight": 0, "stackable": false, "sellto": ["Blue Djinn"] },
-    { "name": "Warrior Helmet", "price": 5000, "weight": 68, "stackable": false, "sellto": ["Green Djinn"] },
-    { "name": "Winged Boots", "price": 40000, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "White Pearl", "price": 160, "weight": 0.2, "stackable": true, "sellto": ["Iwan"] },
-    { "name": "Worm Chopper", "price": 1500, "weight": 0, "stackable": false, "sellto": ["Rashid"] },
-    { "name": "Yellow Gem", "price": 5000, "weight": 0.3, "stackable": false, "sellto": ["Rashid"] }
-],
-
-"creatures": [
-    { "name": "Test", "items": ["Brass Armor", "Brass Shield", "Mace"] }
-]
+  "locations": [
+    {
+      "name": "Blue Djinn",
+      "closeto": [
+        "Ankrahmun"
+      ]
+    },
+    {
+      "name": "Green Djinn",
+      "closeto": [
+        "Ankrahmun"
+      ]
+    },
+    {
+      "name": "Hireling",
+      "closeto": [
+        "Edron"
+      ]
+    },
+    {
+      "name": "Edron",
+      "closeto": [
+        "Edron"
+      ]
+    },
+    {
+      "name": "Rashid",
+      "closeto": [
+        "Darashia"
+      ]
+    },
+    {
+      "name": "Ankrahmun",
+      "closeto": [
+        "Edron"
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Blue Djinn",
+      "location": "Blue Djinn"
+    },
+    {
+      "name": "Green Djinn",
+      "location": "Green Djinn"
+    },
+    {
+      "name": "Hireling",
+      "location": "Hireling"
+    },
+    {
+      "name": "Iwan",
+      "location": "Edron"
+    },
+    {
+      "name": "Tesha",
+      "location": "Ankrahmun"
+    },
+    {
+      "name": "Rashid",
+      "location": "Rashid"
+    }
+  ],
+  "runes": [
+    {
+      "name": "UH",
+      "price": 0
+    },
+    {
+      "name": "SD",
+      "price": 0
+    },
+    {
+      "name": "GFB",
+      "price": 0
+    },
+    {
+      "name": "HMM",
+      "price": 0
+    },
+    {
+      "name": "XPL",
+      "price": 0
+    },
+    {
+      "name": "ICIC",
+      "price": 0
+    }
+  ],
+  "players_otheritems": [
+    {
+      "name": "Life Ring",
+      "price": 900,
+      "weight": 0
+    },
+    {
+      "name": "RoH",
+      "price": 2000,
+      "weight": 0
+    },
+    {
+      "name": "BP of MF's",
+      "price": 4000,
+      "weight": 0
+    },
+    {
+      "name": "BP of Large MF's",
+      "price": 6700,
+      "weight": 0
+    },
+    {
+      "name": "Arrow",
+      "price": 3,
+      "weight": 0
+    },
+    {
+      "name": "Elven Arrow",
+      "price": 7,
+      "weight": 0
+    },
+    {
+      "name": "Golden Arrow",
+      "price": 14,
+      "weight": 0
+    },
+    {
+      "name": "Bolt",
+      "price": 5,
+      "weight": 0
+    }
+  ],
+  "items": [
+    {
+      "name": "Adventurer Sword",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Ancient Amulet",
+      "price": 3000,
+      "weight": 8.5,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Ancient Scarab Coin",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Ancient Legs",
+      "price": 150000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Ankh",
+      "price": 100,
+      "weight": 4.2,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Arcana Staff",
+      "price": 10000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Axe Ring",
+      "price": 100,
+      "weight": 0.9,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Barbarian Axe",
+      "price": 185,
+      "weight": 51,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Battle Axe",
+      "price": 80,
+      "weight": 50,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Battle Hammer",
+      "price": 120,
+      "weight": 68,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Battle Shield",
+      "price": 95,
+      "weight": 62,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Bear Helmet",
+      "price": 2500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Beholder Amulet",
+      "price": 12000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Beholder Helmet",
+      "price": 40000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Beholder Shield",
+      "price": 3400,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Black Pearl",
+      "price": 280,
+      "weight": 0.2,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Black Shield",
+      "price": 800,
+      "weight": 41.5,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Blood Herb",
+      "price": 0,
+      "weight": 1.2,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Blue Robe",
+      "price": 10000,
+      "weight": 22,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Bolt",
+      "price": 0,
+      "weight": 0.8,
+      "stackable": true,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Bone Shield",
+      "price": 150,
+      "weight": 55,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Boots of Haste",
+      "price": 30000,
+      "weight": 8.5,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Bunny Ears",
+      "price": 3000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Brass Armor",
+      "price": 150,
+      "weight": 80,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Brass Helmet",
+      "price": 30,
+      "weight": 27,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Brass Legs",
+      "price": 49,
+      "weight": 49,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Brass Shield",
+      "price": 16,
+      "weight": 60,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Bright Sword",
+      "price": 0,
+      "weight": 29,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Broad Sword",
+      "price": 500,
+      "weight": 52.5,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Chain Armor",
+      "price": 70,
+      "weight": 100,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Chain Helmet",
+      "price": 17,
+      "weight": 42,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Chain Legs",
+      "price": 25,
+      "weight": 35,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Clerical Mace",
+      "price": 170,
+      "weight": 58,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Club Ring",
+      "price": 100,
+      "weight": 0.9,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Composite Bow",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Crossbow",
+      "price": 160,
+      "weight": 40,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Crown Armor",
+      "price": 12000,
+      "weight": 99,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crown Boots",
+      "price": 20000,
+      "weight": 20,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crown Helmet",
+      "price": 2500,
+      "weight": 29.5,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crown Legs",
+      "price": 12000,
+      "weight": 65,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crown Shield",
+      "price": 8000,
+      "weight": 62,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crown Sword",
+      "price": 50000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crusader Helmet",
+      "price": 6000,
+      "weight": 52,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Crystal Ball",
+      "price": 190,
+      "weight": 34,
+      "stackable": false,
+      "sellto": [
+        "Alexander"
+      ]
+    },
+    {
+      "name": "Daramanian Waraxe",
+      "price": 1000,
+      "weight": 105,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Dark Armor",
+      "price": 400,
+      "weight": 120,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Dark Helmet",
+      "price": 250,
+      "weight": 46,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Demon Bone",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Demon Shield",
+      "price": 30000,
+      "weight": 26,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Devil Helmet",
+      "price": 1500,
+      "weight": 50,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Djinn Robe",
+      "price": 30000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Double Axe",
+      "price": 260,
+      "weight": 70,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Draconian Helmet",
+      "price": 30000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Draconian Blade",
+      "price": 15000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Dragon Hammer",
+      "price": 2000,
+      "weight": 97,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "The Dragon Killer",
+      "price": 8000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Dragon Lance",
+      "price": 9000,
+      "weight": 67,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Dragon Scale Mail",
+      "price": 40000,
+      "weight": 114,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Dragon Shield",
+      "price": 4000,
+      "weight": 60,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Dwarven Axe",
+      "price": 2000,
+      "weight": 82,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Dwarven Armor",
+      "price": 30000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Dwarven Helmet",
+      "price": 0,
+      "weight": 42,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Dwarven Shield",
+      "price": 100,
+      "weight": 55,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Elven Arrow",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Elven Amulet",
+      "price": 100,
+      "weight": 2.7,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Elven Legs",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Elven Robe",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Elvish Bow",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Fillet",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Fire Axe",
+      "price": 8000,
+      "weight": 40,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Feather Amulet",
+      "price": 2000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Fire Axe",
+      "price": 8000,
+      "weight": 40,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Fire Club",
+      "price": 7000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Fire Sword",
+      "price": 4000,
+      "weight": 23,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Firewalker Boots",
+      "price": 20000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Flaming Bow",
+      "price": 30000,
+      "weight": 22,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Gargoyle Helmet",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Ghost Rope",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Giant Shield",
+      "price": 9000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Giant Sword",
+      "price": 17000,
+      "weight": 180,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Golden Armor",
+      "price": 20000,
+      "weight": 80,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Golden Legs",
+      "price": 50000,
+      "weight": 56,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Golden Cherry",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Gold Ring",
+      "price": 10000,
+      "weight": 1,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Guardian Halberd",
+      "price": 12000,
+      "weight": 110,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Guardian Shield",
+      "price": 2000,
+      "weight": 55,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Halberd",
+      "price": 400,
+      "weight": 90,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Heroic Axe",
+      "price": 25000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Heroic Mace",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Heroic Sword",
+      "price": 25000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Hunter Cloak",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Ice Rapier",
+      "price": 1000,
+      "weight": 15,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Iron Helmet",
+      "price": 150,
+      "weight": 30,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Iron Shield",
+      "price": 500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Knight Armor",
+      "price": 5000,
+      "weight": 120,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Knight Axe",
+      "price": 2000,
+      "weight": 59,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Knight Legs",
+      "price": 5000,
+      "weight": 70,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Life Amulet",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Life Ring",
+      "price": 0,
+      "weight": 0.8,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Longsword",
+      "price": 51,
+      "weight": 42,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Lunar Staff",
+      "price": 7000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Mace",
+      "price": 30,
+      "weight": 38,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Magic Fragment",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Magic Plate Armor",
+      "price": 0,
+      "weight": 85,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Magic Wand",
+      "price": 350,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Mastermind Shield",
+      "price": 50000,
+      "weight": 57,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Medusa Shield",
+      "price": 10000,
+      "weight": 58,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Might Ring",
+      "price": 250,
+      "weight": 1,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Mind Stone",
+      "price": 250,
+      "weight": 2,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Minotaur Armor",
+      "price": 2000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Minotaur Axe",
+      "price": 10000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Minotaur Helmet",
+      "price": 1250,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Minotaur Legs",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Morning Star",
+      "price": 90,
+      "weight": 2,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Mystic Turban",
+      "price": 150,
+      "weight": 8.5,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Nightmare Book",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Noble Armor",
+      "price": 900,
+      "weight": 120,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Obsidian Lance",
+      "price": 500,
+      "weight": 80,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Orb",
+      "price": 750,
+      "weight": 8,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Orcish Armor",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Orcish Axe",
+      "price": 350,
+      "weight": 40,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Orcish Legs",
+      "price": 1000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Paladin Armor",
+      "price": 20000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Phoenix Shield",
+      "price": 70000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Plate Armor",
+      "price": 400,
+      "weight": 120,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Plate Legs",
+      "price": 150,
+      "weight": 50,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Plate Shield",
+      "price": 45,
+      "weight": 65,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Platinum Amulet",
+      "price": 7500,
+      "weight": 6,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Protection Amulet",
+      "price": 100,
+      "weight": 5.5,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Rabbit Doll",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Rangers Legs",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Reapers Axe",
+      "price": 35000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Red Robe",
+      "price": 0,
+      "weight": 24,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Ring of Healing",
+      "price": 100,
+      "weight": 0.8,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Ring of the Sky",
+      "price": 30000,
+      "weight": 0.4,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Rock Boots",
+      "price": 0,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Royal Helmet",
+      "price": 30000,
+      "weight": 48,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Royal Sword",
+      "price": 10000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Ruby Necklace",
+      "price": 2000,
+      "weight": 5.7,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Scale Armor",
+      "price": 75,
+      "weight": 105,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Scarab Amulet",
+      "price": 3000,
+      "weight": 7.7,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Scarab Bow",
+      "price": 7000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Scarab Coin",
+      "price": 150,
+      "weight": 0.2,
+      "stackable": true,
+      "sellto": [
+        "Tesha"
+      ]
+    },
+    {
+      "name": "Scarab Shield",
+      "price": 3000,
+      "weight": 47,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Scimitar",
+      "price": 150,
+      "weight": 29,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Serpent Sword",
+      "price": 900,
+      "weight": 41,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Silver Amulet",
+      "price": 50,
+      "weight": 5,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Silver Dagger",
+      "price": 500,
+      "weight": 10.2,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Silver Mace",
+      "price": 16500,
+      "weight": 67,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Skull Armor",
+      "price": 13000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Skull Shield",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Skull Staff",
+      "price": 6000,
+      "weight": 17,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Small Amethyst",
+      "price": 200,
+      "weight": 0.1,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Small Diamond",
+      "price": 300,
+      "weight": 0.1,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Small Emerald",
+      "price": 250,
+      "weight": 0.1,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Small Ruby",
+      "price": 250,
+      "weight": 0.1,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Small Sapphire",
+      "price": 250,
+      "weight": 0.1,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Soldier Helmet",
+      "price": 16,
+      "weight": 32,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Spidersilk Armor",
+      "price": 15000,
+      "weight": 25,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Spidersilk Legs",
+      "price": 12500,
+      "weight": 15,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Spike Sword",
+      "price": 1000,
+      "weight": 50,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Spiky Club",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Staff of Darkness",
+      "price": 5000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Stealth Ring",
+      "price": 200,
+      "weight": 1,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Steel Boots",
+      "price": 35000,
+      "weight": 29,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Steel Helmet",
+      "price": 293,
+      "weight": 46,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Steel Shield",
+      "price": 80,
+      "weight": 69,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Stone Skin Amulet",
+      "price": 500,
+      "weight": 7,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Strange Helmet",
+      "price": 500,
+      "weight": 46,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Strange Symbol",
+      "price": 0,
+      "weight": 2,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Sword",
+      "price": 25,
+      "weight": 35,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Sword Ring",
+      "price": 100,
+      "weight": 0.9,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Talon",
+      "price": 0,
+      "weight": 0.2,
+      "stackable": true,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Time Ring",
+      "price": 100,
+      "weight": 0.9,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Tower Shield",
+      "price": 8000,
+      "weight": 82,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Two Handed Sword",
+      "price": 450,
+      "weight": 70,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "Vampire Shield",
+      "price": 15000,
+      "weight": 38,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Violet Gem",
+      "price": 0,
+      "weight": 0.3,
+      "stackable": false,
+      "sellto": [
+        "Players"
+      ]
+    },
+    {
+      "name": "Viking Helmet",
+      "price": 66,
+      "weight": 39,
+      "stackable": false,
+      "sellto": [
+        "Hireling"
+      ]
+    },
+    {
+      "name": "War Axe",
+      "price": 12000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "War Hammer",
+      "price": 1200,
+      "weight": 85,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Watcher Lantern",
+      "price": 17000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Blue Djinn"
+      ]
+    },
+    {
+      "name": "Warrior Helmet",
+      "price": 5000,
+      "weight": 68,
+      "stackable": false,
+      "sellto": [
+        "Green Djinn"
+      ]
+    },
+    {
+      "name": "Winged Boots",
+      "price": 40000,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "White Pearl",
+      "price": 160,
+      "weight": 0.2,
+      "stackable": true,
+      "sellto": [
+        "Iwan"
+      ]
+    },
+    {
+      "name": "Worm Chopper",
+      "price": 1500,
+      "weight": 0,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    },
+    {
+      "name": "Yellow Gem",
+      "price": 5000,
+      "weight": 0.3,
+      "stackable": false,
+      "sellto": [
+        "Rashid"
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Test",
+      "items": [
+        "Brass Armor",
+        "Brass Shield",
+        "Mace"
+      ]
+    }
+  ]
 }
