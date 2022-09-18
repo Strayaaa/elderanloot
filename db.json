@@ -1394,7 +1394,7 @@
     },
     {
       "name": "Scarab Amulet",
-      "price": 3000,
+      "price": 500,
       "weight": 7.7,
       "stackable": false,
       "sellto": [
